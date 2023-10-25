@@ -3,8 +3,8 @@ x = " aşağıdan yukarıya yükseliyor , AŞAĞIDAN YUKARIYA YUKSELİYOR"
 
 print("Önce:", x)
 
-x = x.replace("ç","c")
-x = x.replace("Ç","C")
+x = x.replace("ç","c")    # stringdeki karakteri belirlediğiniz diğer karakterle değiştirir. 
+x = x.replace("Ç","C")    # Bu örnekte türkçe harflerden kurtulmak için kullanılmış.
 x = x.replace("ö","o")
 x = x.replace("Ö","O")
 x = x.replace("ü","u")
