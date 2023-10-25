@@ -2,9 +2,9 @@ a = "aldfjasdlfasdf@adlsfkşadsf"
 b = "ads.kfjşaldksfasf"
 c = "fskkjflşsdflkdsfjkdsfjlkdsf"
 
-x = a.count("@")
+x = a.count("@")            # bir stringde belirlenen karakterden kac kere bulundugunu sayar. 
 y = b.count("@")
-z = c.count("@")
+z = c.count("@")            
 
 if not x == 1:
     print("yok")
